@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;  /* White background */
+    color: #333;  /* Black text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #f1e6d7;  /* Cream background */
+    padding: 20px;
+    text-align: center;
+    color: #333;  /* Black text */
+}
+
+/* Navigation */
+nav {
+    background-color: #f1e6d7;  /* Cream background */
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    color: #333;  /* Black links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f1e6d7;  /* Cream background */
+    padding: 50px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    color: #333;  /* Black text */
+    margin-bottom: 30px;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;  /* White background for each project */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    color: #333;  /* Black text */
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-size: 1.1rem;
+    color: #555;  /* Dark gray text for paragraphs */
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: #333;  /* Black background */
+    color: #fff;  /* White text */
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Button Styling */
+button {
+    background-color: #f1e6d7;  /* Cream button */
+    border: 2px solid #333;  /* Black border */
+    color: #333;  /* Black text */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0cfa2;  /* Slightly darker cream on hover */
+}
+
+/* Form Styling */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Links */
+a {
+    color: #333;  /* Black links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+

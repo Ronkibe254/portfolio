@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ron Kiberenge Muriithi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #about, #interests, #projects, #contact {
+            padding: 50px 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .interest {
+            display: inline-block;
+            margin: 15px;
+            text-align: center;
+        }
+        .interest img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h1>Ron Kiberenge Muriithi</h1>
+        <img src="profile.jpg" alt="Ron Kiberenge Muriithi">
+        <img src="gothic_r_logo.png" alt="Gothic R Logo">
+        <a href="cv.pdf" download class="btn">Download CV</a>
+    </section>
+    
+    <section id="interests">
+        <h2>My Interests</h2>
+        <div class="interest">
+            <img src="reading.jpg" alt="Reading">
+            <p>Reading</p>
+        </div>
+        <div class="interest">
+            <img src="political_activism.jpg" alt="Political Activism">
+            <p>Political Activism</p>
+        </div>
+        <div class="interest">
+            <img src="music.jpg" alt="Music">
+            <p>Music</p>
+        </div>
+        <div class="interest">
+            <img src="travel.jpg" alt="Travel">
+            <p>Travel</p>
+        </div>
+        <div class="interest">
+            <img src="food_nerd.jpg" alt="Food Nerd">
+            <p>Food Nerd</p>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Networking Projects</h3>
+            <p>Expert in designing and implementing **LAN (Local Area Networks)** and **WAN (Wide Area Networks)**, having completed professional certifications in **CCNA** (Cisco Certified Network Associate) and **HCIA** (Huawei Certified ICT Associate). I specialize in creating scalable and efficient networks for businesses and homes, ensuring secure data transmission across various devices.</p>
+        </div>
+        <div class="project">
+            <h3>CCTV Installations</h3>
+            <p>I have hands-on experience in installing and maintaining **CCTV (Closed Circuit Television)** systems. From setup and configuration to troubleshooting, I ensure secure surveillance for homes, offices, and large premises, helping clients maintain safety and monitor activities efficiently.</p>
+        </div>
+        <div class="project">
+            <h3>WLAN & Wi-Fi Setup</h3>
+            <p>I specialize in **WLAN (Wireless Local Area Network)** configurations and **Wi-Fi setup**. This includes creating efficient and secure wireless networks for businesses and homes, ensuring optimal signal strength, and addressing network congestion for better performance.</p>
+        </div>
+        <div class="project">
+            <h3>Web Development & Programming</h3>
+            <p>With proficiency in **Python**, **CSS**, and **HTML**, I develop responsive websites and applications. Whether it’s automating tasks with Python or designing aesthetically appealing web pages with HTML and CSS, I bring dynamic web solutions to life.</p>
+        </div>
+    </section>
+    
+        
+    
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="POST">
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Ron Kiberenge. ALL RIGHTS RESERVED.</p>
+    </footer>
+</body>
+</html>
